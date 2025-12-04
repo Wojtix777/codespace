@@ -30,5 +30,9 @@
         </tr>
     </table>
     <p>insert form and css here because I suck at them</p>
+    <a href="tobephpornottobe.php">click me</a>
+    <?php
+        phpinfo(1);
+    ?>
 </body>
 </html>
