@@ -1,9 +1,10 @@
 services:
   dc:
-    image: kasmweb/discord:latest
+    image: kasmweb/discord:1.18.0-rolling-weekly
     pull_policy: daily
     tty: true
     stdin_open: true
     environment: 
-     APP_ARGS: "firejail --noprofile --net=none"
-    ports: "6901:6901"
+     VNC_PW: "password"
+    ports: 
+     - "6901:6901"
